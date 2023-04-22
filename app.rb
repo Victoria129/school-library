@@ -180,5 +180,4 @@ class App
     person.add_rental(date, book)
     puts 'Rental created successfully'
   end
-
 end
