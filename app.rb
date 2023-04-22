@@ -3,7 +3,6 @@ require './rental'
 require './student'
 require './teacher'
 
-# rubocop:disable App/ClassLength
 class App
   def initialize
     @books = []
@@ -151,7 +150,6 @@ class App
     puts 'Book created successfully'
   end
 
-  # rubocop:disable create_rental/MethodLength
   def create_rental
     puts
     puts 'Select a book from the following list by number'
@@ -182,6 +180,5 @@ class App
     person.add_rental(date, book)
     puts 'Rental created successfully'
   end
-  # rubocop:enable create_rental/MethodLength
+
 end
-# rubocop:enable App/ClassLength
