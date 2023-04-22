@@ -3,6 +3,7 @@ require './rental'
 require './student'
 require './teacher'
 
+# rubocop:disable ClassLength
 class App
   def initialize
     @books = []
@@ -12,7 +13,7 @@ class App
 
   def diplay_menu
     puts
-    puts 'Please choose an option by entering a number:'
+    puts 'Please enter a number for an option:'
     puts '1 - List all books'
     puts '2 - List all people'
     puts '3 - Create a person'
@@ -181,3 +182,4 @@ class App
     puts 'Rental created successfully'
   end
 end
+# rubocop:enable ClassLength
