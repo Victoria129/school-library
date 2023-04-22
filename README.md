@@ -63,8 +63,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-  $ git clone https://github.com/lenkon/create-enumerable
-  $ cd create-enumerable
+  $ git clone https://github.com/Victoria129/school-library.git
+  $ cd school-library
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -80,7 +80,7 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Features to be added.
-- [ ] **[Add more projects]**
+- [ ] **[Create mobile version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
